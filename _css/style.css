@@ -17,7 +17,7 @@ div.cabecalho{
     align-items: center;
     justify-content: space-between;
     width: 90%;
-    max-width: 980px;
+    max-width: 1300px;
     margin: auto;
 }
 div.cabecalho ul{
@@ -43,4 +43,11 @@ div.cabecalho a{
 div.cabecalho a:hover{
     text-decoration:none;
     color:#ffffff;
+}
+article#Quem_somos{
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    max-width: 1300px;
+    margin: auto;
 }
