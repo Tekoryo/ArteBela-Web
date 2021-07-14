@@ -1,35 +1,46 @@
 @charset "UTF-8";
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 /* font-family: 'Open Sans', sans-serif; */
+/* color: #d8231d */
 
 body{
-    background-color: aliceblue;
+    background-color: #f0f8ff;
     font-family: 'Arial, sans-serif';
-    width:100%;
+    margin: 0px;
 }
-header#cabecalho{
-    background:gray;
-    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.308);
-    margin: -10px;
-    padding: 10px;
+header#cabecalho-menu{
+    background:#f0f8ff;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.308);
 }
-header#cabecalho img{
-
+div.cabecalho{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    max-width: 980px;
+    margin: auto;
 }
-header#cabecalho div{
-    background-color: antiquewhite;
-    margin-left: 10%;
-    width: 1200px;
-}
-header#cabecalho ul{
+div.cabecalho ul{
     display: block;
     float: right;
     margin: 30px 30px 30px 30px;
 }
-header#cabecalho li{
+div.cabecalho li{
     display: inline-block;
+    margin: 5px;
+    padding: 10px;
 }
-header#cabecalho a{
+div.cabecalho li:hover{
+    background: gray;
+    border-radius: 3px;
+    padding: 5px;
+    margin: 5px;
+}
+div.cabecalho a{
     text-decoration:none;
     color:#000000;
+}
+div.cabecalho a:hover{
+    text-decoration:none;
+    color:#ffffff;
 }
