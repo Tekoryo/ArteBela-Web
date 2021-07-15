@@ -2,16 +2,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 /* font-family: 'Open Sans', sans-serif; */
 /* color: #d8231d */
-
+/* Geral */
 body{
     background-color: #f0f8ff;
     font-family: 'Arial', sans-serif;
     margin: 0px;
 }
+/* cabecalho */
 header#cabecalho-menu{
     background:#f0f8ff;
     box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.308);
 }
+/* Menu */
 div.cabecalho{
     display: flex;
     align-items: center;
@@ -44,10 +46,23 @@ div.cabecalho a:hover{
     text-decoration:none;
     color:#ffffff;
 }
+/* Conteudo - Inicio */
+
+/* Conteudo - Quem somos */
 article#Quem_somos{
     align-items: center;
     justify-content: space-between;
     width: 90%;
     max-width: 1300px;
     margin: auto;
+}
+/* Conteudo - fotos */
+/* Conteudo - contato */
+/* Conteudo - rodape */
+footer#rodape{
+    background-color:gray;
+    color: white;
+    margin: 10px 0px 0px 0px;
+    width: 90%;
+    max-width: 1300px;
 }
