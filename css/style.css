@@ -64,21 +64,23 @@ article#Quem_somos{
 /* Conteudo - contato */
 /* Conteudo - rodape */
 footer#rodape{
-    background-color: gainsboro ;
-    margin: auto;
+    background-color: #bbbbbb;
+    border-top: 1px 1px 10px #000000;
+}
+footer.rodape{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     width: 90%;
     max-width: 1300px;
-    height:90%;
-    max-height:500px;
+    height: 90%;
+    max-height: 500px;
+    margin: auto;
 }
 footer.rodape div{
-    background-color: black ;
-    margin: auto;
-    width: 90%;
-    max-width: 1300px;
-    height:90%;
-    max-height:500px;
+    
 }
 footer.rodape p{
     text-align: center; 
 }
+/* Outros */
