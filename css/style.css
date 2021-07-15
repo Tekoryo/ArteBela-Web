@@ -46,23 +46,39 @@ div.cabecalho a:hover{
     text-decoration:none;
     color:#ffffff;
 }
-/* Conteudo - Inicio */
-
-/* Conteudo - Quem somos */
-article#Quem_somos{
+/* contudo */
+section#corpo-conte{
     align-items: center;
     justify-content: space-between;
     width: 90%;
     max-width: 1300px;
     margin: auto;
 }
+/* Conteudo - Inicio */
+
+/* Conteudo - Quem somos */
+article#Quem_somos{
+    
+}
 /* Conteudo - fotos */
 /* Conteudo - contato */
 /* Conteudo - rodape */
 footer#rodape{
-    background-color:gray;
-    color: white;
-    margin: 10px 0px 0px 0px;
+    background-color: gainsboro ;
+    margin: auto;
     width: 90%;
     max-width: 1300px;
+    height:90%;
+    max-height:500px;
+}
+footer.rodape div{
+    background-color: black ;
+    margin: auto;
+    width: 90%;
+    max-width: 1300px;
+    height:90%;
+    max-height:500px;
+}
+footer.rodape p{
+    text-align: center; 
 }
