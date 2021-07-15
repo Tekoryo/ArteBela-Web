@@ -58,7 +58,7 @@ section#corpo-conte{
 
 /* Conteudo - Quem somos */
 article#Quem_somos{
-    
+    display: flex;
 }
 /* Conteudo - fotos */
 /* Conteudo - contato */
@@ -73,14 +73,7 @@ footer.rodape{
     justify-content: space-between;
     width: 90%;
     max-width: 1300px;
-    height: 90%;
-    max-height: 500px;
     margin: auto;
 }
-footer.rodape div{
-    
-}
-footer.rodape p{
-    text-align: center; 
-}
+
 /* Outros */
