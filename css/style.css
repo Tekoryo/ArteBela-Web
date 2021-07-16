@@ -46,6 +46,9 @@ div.cabecalho a:hover{
     text-decoration:none;
     color:#ffffff;
 }
+article{
+    margin-top: 50px;    
+}
 /* contudo */
 section#corpo-conte{
     align-items: center;
@@ -56,14 +59,21 @@ section#corpo-conte{
 }
 /* Conteudo - Inicio */
 article#inicio{
-    margin-top: 50px;
     align-items: center;
 }
 /* Conteudo - Quem somos */
-article#Quem_somos{
+article#sobre{
     display: flex;
 }
+div#sobre_texto p{
+    text-align: justify;
+}
+div#sobre_img img{
+    display: block;
+    position: absolute;
+}
 /* Conteudo - fotos */
+
 /* Conteudo - contato */
 article.contform{
     display: flex;
