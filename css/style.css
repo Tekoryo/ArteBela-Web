@@ -55,7 +55,10 @@ section#corpo-conte{
     margin: auto;
 }
 /* Conteudo - Inicio */
-
+article#inicio{
+    margin-top: 50px;
+    align-items: center;
+}
 /* Conteudo - Quem somos */
 article#Quem_somos{
     display: flex;
