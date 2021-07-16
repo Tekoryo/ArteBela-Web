@@ -50,7 +50,7 @@ article{
     margin-top: 50px;    
 }
 /* contudo */
-section.corpo-conte{
+.corpo-conte{
     align-items: center;
     justify-content: space-between;
     width: 90%;
