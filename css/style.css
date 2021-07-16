@@ -62,6 +62,19 @@ article#Quem_somos{
 }
 /* Conteudo - fotos */
 /* Conteudo - contato */
+article.contform{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+}
+article.contform div#formulario{
+    display: block;
+    padding-right: 50%;
+    align-items:  flex-end;
+}
 /* Conteudo - rodape */
 footer#rodape{
     background-color: #bbbbbb;
