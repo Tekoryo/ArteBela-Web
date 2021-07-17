@@ -58,8 +58,9 @@ article{
     margin: auto;
 }
 /* Conteudo - Inicio */
-article#inicio{
-    align-items: center;
+article#inicio img{
+    display: block;
+    margin: 0px auto;
 }
 /* Conteudo - Quem somos */
 article#sobre{
@@ -73,7 +74,10 @@ div#sobre_img img{
     position: absolute;
 }
 /* Conteudo - fotos */
-
+article#fotos img{
+    display: block;
+    margin: 0px auto;
+}
 /* Conteudo - contato */
 article.contform{
     display: flex;
