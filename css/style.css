@@ -84,9 +84,6 @@ div#sobre_texto h1:hover{
     color:#000000;
     text-decoration:underline;
 }
-div#sobre_texto p{
-    
-}
 /* Conteudo - fotos */
 article#fotos img{
     display: block;
@@ -100,12 +97,19 @@ article.contform{
     width: 90%;
     max-width: 1000px;
     margin: auto;
+    margin-top: 50px;
 }
 article.contform div#formulario{
     display: block;
     padding-right: 50%;
     align-items:  flex-end;
+    
 }
+div#formulario input.foma{
+    width: 500px;
+    height:500px;
+}
+
 /* Conteudo - rodape */
 footer#rodape{
     background-color: #bbbbbb;
