@@ -70,20 +70,22 @@ div#sobre_img img{
     position: absolute;
 }
 div#sobre_texto{
-    border: 1px solid black;
     margin: 5px;
     padding: 5px;
     text-align: left;  
 }
 div#sobre_texto h1{
     display:block;
-    font-size: 22pt;
-    width: %;
-    background-color: aquamarine;
+    font-size: 26pt;
+    width: 30%;
+    background-color: none;
 }
 div#sobre_texto h1:hover{
     color:#000000;
     text-decoration:underline;
+}
+div#sobre_texto p{
+    
 }
 /* Conteudo - fotos */
 article#fotos img{
