@@ -76,7 +76,14 @@ div#sobre_texto{
     text-align: left;  
 }
 div#sobre_texto h1{
-    
+    display:block;
+    font-size: 22pt;
+    width: %;
+    background-color: aquamarine;
+}
+div#sobre_texto h1:hover{
+    color:#000000;
+    text-decoration:underline;
 }
 /* Conteudo - fotos */
 article#fotos img{
