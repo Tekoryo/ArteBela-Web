@@ -1,6 +1,5 @@
 @charset "UTF-8";
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
-/* font-family: 'Open Sans', sans-serif; */
+@import url(font.css);
 /* color: #d8231d */
 /* Geral */
 body{
@@ -66,12 +65,18 @@ article#inicio img{
 article#sobre{
     display: flex;
 }
-div#sobre_texto p{
-    text-align: justify;
-}
 div#sobre_img img{
     display: block;
     position: absolute;
+}
+div#sobre_texto{
+    border: 1px solid black;
+    margin: 5px;
+    padding: 5px;
+    text-align: left;  
+}
+div#sobre_texto h1{
+    
 }
 /* Conteudo - fotos */
 article#fotos img{
