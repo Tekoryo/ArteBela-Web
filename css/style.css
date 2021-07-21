@@ -101,15 +101,20 @@ article.contform{
 }
 article.contform div#formulario{
     display: block;
-    padding-right: 50%;
+    padding-right: 25%;
     align-items:  flex-end;
     
 }
+div#name{
+    display: inline-block;
+}
+div#name input.name{
+    width:243px;
+}
 div#formulario input.foma{
     width: 500px;
-    height:500px;
+    height:250px;
 }
-
 /* Conteudo - rodape */
 footer#rodape{
     background-color: #bbbbbb;
