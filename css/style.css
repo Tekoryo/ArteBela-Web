@@ -90,7 +90,7 @@ article#fotos img{
     margin: 0px auto;
 }
 /* Conteudo - contato */
-article.contform{
+article.contato{
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -99,7 +99,8 @@ article.contform{
     margin: auto;
     margin-top: 50px;
 }
-article.contform div#formulario{
+article.contato div#formulario{
+
     display: block;
     padding-right: 25%;
     align-items:  flex-end;
