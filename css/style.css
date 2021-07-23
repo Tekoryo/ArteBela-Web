@@ -98,7 +98,6 @@ article#galeria div{
 article.contato{
     display: flex;
     align-items: center;
-    overflow-x:hidden ;
     justify-content: space-between;
     width: 90%;
     max-width: 1000px;
@@ -106,7 +105,6 @@ article.contato{
     margin-top: 50px;
 }
 article.contato div#formulario{
-
     display: block;
     padding-right: 25%;
     align-items:  flex-end;
@@ -130,7 +128,6 @@ footer#rodape{
     margin-right: -20px;
     height: 90%;
     max-height: 500px;
-    
 }
 footer.rodape{
     display: flex;
