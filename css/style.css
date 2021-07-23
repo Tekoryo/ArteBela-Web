@@ -85,15 +85,7 @@ div#sobre_texto h1:hover{
     text-decoration:underline;
 }
 /* Conteudo - galeria */
-article#galeria div#foto{
-    margin-top:30px;
-    width:650px;
-    overflow-x: hidden;
-    height:135px;
-    border:1px solid #CCC;
-    white-space: nowrap;
-}
-div#foto figure{
+article#galeria div{
     display: flex;
     align-items: center;
     justify-content: space-between;
