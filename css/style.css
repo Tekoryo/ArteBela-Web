@@ -84,8 +84,16 @@ div#sobre_texto h1:hover{
     color:#000000;
     text-decoration:underline;
 }
-/* Conteudo - fotos */
-article#foto div img{
+/* Conteudo - galeria */
+article#galeria div#foto{
+    margin-top:30px;
+    width:650px;
+    overflow-x: hidden;
+    height:135px;
+    border:1px solid #CCC;
+    white-space: nowrap;
+}
+div#foto figure{
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -98,6 +106,7 @@ article#foto div img{
 article.contato{
     display: flex;
     align-items: center;
+    overflow-x:hidden ;
     justify-content: space-between;
     width: 90%;
     max-width: 1000px;
@@ -111,10 +120,10 @@ article.contato div#formulario{
     align-items:  flex-end;
     
 }
-div#name{
+div.fname{
     display: inline-block;
 }
-div#name input.name{
+div.fname input.name{
     width:243px;
 }
 div#formulario input.foma{
