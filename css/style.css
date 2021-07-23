@@ -85,9 +85,14 @@ div#sobre_texto h1:hover{
     text-decoration:underline;
 }
 /* Conteudo - fotos */
-article#fotos img{
-    display: block;
-    margin: 0px auto;
+article#foto div img{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    margin-top: 50px;
 }
 /* Conteudo - contato */
 article.contato{
