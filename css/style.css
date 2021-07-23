@@ -104,12 +104,19 @@ article.contato{
     margin: auto;
     margin-top: 50px;
 }
+article.contato h2{
+    color: #000000;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
 article.contato div#formulario{
     display: block;
     padding-right: 25%;
     align-items:  flex-end;
+    margin-right: 0px;
     
 }
+
 div.fname{
     display: inline-block;
 }
@@ -119,6 +126,12 @@ div.fname input.name{
 div#formulario input.foma{
     width: 500px;
     height:250px;
+}
+article.contato div#contato{
+    border-left: 8px solid rgb(104, 13, 13) ;
+    margin-left: -500px ;
+    padding-left: 20px;
+    color:black;
 }
 /* Conteudo - rodape */
 footer#rodape{
@@ -137,5 +150,4 @@ footer.rodape{
     max-width: 1300px;
     margin: auto;
 }
-
 /* Outros */
