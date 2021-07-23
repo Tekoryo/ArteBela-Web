@@ -11,6 +11,11 @@ body{
 header#cabecalho-menu{
     background:#f0f8ff;
     box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.308);
+    position: fixed;
+    top:0;
+    left: 0;
+    width: 100%;
+    max-width: 1600px;
 }
 /* Menu */
 div.cabecalho{
@@ -20,6 +25,7 @@ div.cabecalho{
     width: 90%;
     max-width: 1300px;
     margin: auto;
+    
 }
 div.cabecalho ul{
     display: block;
@@ -48,7 +54,7 @@ div.cabecalho a:hover{
 article{
     margin-top: 50px;    
 }
-/* contudo */
+/* conteúdo */
 .corpo-conte{
     align-items: center;
     justify-content: space-between;
@@ -63,32 +69,40 @@ article#inicio img{
 }
 /* Conteudo - Quem somos */
 article#sobre{
-    display: flex;
+    display: inline-block;
+    width: 90%;
+    max-width: 1000px;
+    position: relative;
+    left: 10%;
 }
-div#sobre_img img{
+div.sobre_conteudo{
+    float: left;
+    margin: 10px auto;
+}
+div#foto-equipe img{
     display: block;
     position: absolute;
 }
-div#sobre_texto{
+div#texto{
     margin: 5px;
     padding: 5px;
-    text-align: left;  
+    text-align: left; 
+    width: 500px;
+    border: #000000 1px solid; 
 }
-div#sobre_texto h1{
+div#texto h1{
     display:block;
     font-size: 26pt;
     width: 30%;
     background-color: none;
 }
-div#sobre_texto h1:hover{
+div#texto h1:hover{
     color:#000000;
     text-decoration:underline;
 }
 /* Conteudo - galeria */
 article#galeria div{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+    float: left;
     width: 90%;
     max-width: 1000px;
     margin: auto;
