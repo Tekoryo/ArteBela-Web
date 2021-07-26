@@ -2,27 +2,44 @@
 
 // img.setAttribute('src', 'outra_imagem.png');
 var x=5;
-var item,tip;
+var item,cal,z,y;
 var fotos1 = document.getElementById("fotos1")
 
-function image(item){
-    let y,z;
-    y = 5
+console.log(z)
+// mudando a imagem
+function image(item){    
     if(item == 1){
-        y -= 1
+       cal = -1
+    
     }else if(item == 2){
-        y += 1
+       cal = +1
+       
     }
-    console.log(y)
-   switch(y){
-    case 4:
-        fotos1.setAttribute('src','imagens/fotos/im4.jpg')
-        break;
-    case 6:
-        fotos1.setAttribute('src','imagens/fotos/im6.jpg')
-        break;
-    default:
-        alert("[ERRO!]")
-        break;
-   }
+    z = x + cal
+    
+    switch(z){
+        case 3:
+            fotos1.setAttribute('src','imagens/fotos/im3.jpg')
+            break;
+        case 4:
+            fotos1.setAttribute('src','imagens/fotos/im4.jpg')
+            break;
+        case 5:
+            fotos1.setAttribute('src','imagens/fotos/im5.jpg')
+            break;
+        case 6:
+            fotos1.setAttribute('src','imagens/fotos/im6.jpg')
+            break;
+        case 7:
+            fotos1.setAttribute('src','imagens/fotos/im7.jpg')
+            break;
+        default:
+            alert("[ERRO!]")
+            break;
+    }
+    console.log(z)
+
+    return z;
 }
+console.log(z)
+
