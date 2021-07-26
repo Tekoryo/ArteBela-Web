@@ -5,8 +5,10 @@
 body{
     background-color: #f5f5f5;
     font-family: 'Arial', sans-serif;
+    font-size:16pt;
     margin: 0px;
-    width: 1500px;
+    width: 100%;
+    max-width: 1500px;
 }
 /* cabecalho */
 header#cabecalho-menu{
@@ -16,7 +18,7 @@ header#cabecalho-menu{
     top:0;
     left: 0;
     width: 100%;
-
+    max-width: 1600px;
 }
 
 /* Menu */
@@ -47,6 +49,7 @@ div.cabecalho li:hover{
 }
 div.cabecalho a{
     text-decoration:none;
+    padding: 10px;
     color:#000000;
 }
 div.cabecalho a:hover{
@@ -85,18 +88,18 @@ div.sobre_conteudo{
     
 }
 div#foto-equipe img{
+
 }
 div#texto{
     margin: 5px;
     padding: 5px;
     text-align: left; 
-    width: 500px;
-    border: #000000 1px solid; 
+    width: 500px; 
 }
 div#texto h1{
     display:block;
     font-size: 26pt;
-    width: 30%;
+    width: 50%;
     background-color: none;
 }
 div#texto h1:hover{
