@@ -5,12 +5,20 @@
 body{
     background-color: #f5f5f5;
     font-family: 'Arial', sans-serif;
-    font-size:16pt;
+    font-size: 16pt;
     margin: 0px;
     width: 100%;
     max-width: 1500px;
 }
+header#cabecalho-oculto{
 /* cabecalho */
+    opacity: 0;
+    background:#f0f8ff;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.308);
+    height: 100px;
+    width: 100%;
+    max-width: 1600px;
+}
 header#cabecalho-menu{
     background:#f0f8ff;
     box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.308);
@@ -155,6 +163,7 @@ article.contato div#contato{
 }
 /* Conteudo - rodape */
 footer#rodape{
+    font-size: 12pt;
     position: absolute;
     background-color: #bbbbbb;
     border-top: 1px 1px 10px #000000;
