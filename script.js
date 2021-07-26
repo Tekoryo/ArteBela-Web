@@ -7,15 +7,16 @@ var fotos1 = document.getElementById("fotos1")
 
 console.log(z)
 // mudando a imagem
-function image(item){    
+function image(item){  
+    z = x  
     if(item == 1){
-       cal = -1
-    
+       
+       z = z - 1
     }else if(item == 2){
        cal = +1
-       
+       z = z + 1
     }
-    z = x + cal
+    
     
     switch(z){
         case 3:
@@ -39,7 +40,7 @@ function image(item){
     }
     console.log(z)
 
-    return z;
+    return  z;
 }
-console.log(z)
-
+y = z 
+x = z
