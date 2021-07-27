@@ -44,3 +44,21 @@ function image(item){
 }
 y = z 
 x = z
+/*HTML
+<p>
+    <img alt="" src="https://upload.wikimedia.org/wikipedia/commons/0/03/Flag_of_Italy.svg" 
+            style="height: 85px; width: 198px" id="imgBandeira"  />
+</p>
+*/
+/* Js
+$(document).ready(function(){
+
+  $("#imgBandeira").click(function(){
+    if($(this).attr("src") == "https://upload.wikimedia.org/wikipedia/commons/0/03/Flag_of_Italy.svg") 
+      $(this).attr("src","https://upload.wikimedia.org/wikipedia/commons/0/05/Flag_of_Brazil.svg");
+    else
+      $(this).attr("src","https://upload.wikimedia.org/wikipedia/commons/0/03/Flag_of_Italy.svg");
+
+  });
+});
+*/
