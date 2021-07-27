@@ -77,7 +77,7 @@ article{
     margin: auto;
 }
 /* Conteudo - Inicio */
-article#inicio img{
+article#inicio img#fotos1{
     display: block;
     margin: 0px auto;
 }
