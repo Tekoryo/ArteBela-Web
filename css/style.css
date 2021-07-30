@@ -28,7 +28,9 @@ header#cabecalho-menu{
     width: 100%;
     max-width: 1600px;
 }
-
+li{
+    list-style-type:unset;
+}
 /* Menu */
 div.cabecalho{
     display: flex;
@@ -96,8 +98,8 @@ article#sobre{
    
 div.sobre_conteudo{
     margin: 10px auto;
-    
 }
+
         /*imagem  */
 /* div#foto-equipe img{
 
