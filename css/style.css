@@ -28,9 +28,6 @@ header#cabecalho-menu{
     width: 100%;
     max-width: 1600px;
 }
-li{
-    list-style-type:unset;
-}
 /* Menu */
 div.cabecalho{
     display: flex;
