@@ -38,8 +38,7 @@ div.cabecalho{
     justify-content: space-between;
     width: 90%;
     max-width: 1300px;
-    margin: auto;
-    
+    margin: auto;  
 }
 div.cabecalho ul{
     display: block;
@@ -66,11 +65,12 @@ div.cabecalho a:hover{
     text-decoration:none;
     color:#ffffff;
 }
+
+/* Menu celular */
+/* conteúdo */
 article{
     margin-top: 50px;    
 }
-/* Menu celular */
-/* conteúdo */
 .corpo-conte{
     align-items: center;
     width: 100%;
