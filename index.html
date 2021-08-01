@@ -69,19 +69,25 @@
 			</article>
 			<!-- formulario e contato -->
 			<article class="contato">
-				<div id="formulario">
+				<form id="formulario">
 					<h2>Formulario</h2>
 					<div class="fname">
-						<label for="nome">Nome</label>
-						<input type="text" class="name" id="nome">
-						<input type="text" class="name">
+						
+						<input type="text" class="name" placeholder="Nome" required>
+						<input type="text" class="name" placeholder="Email" required>
 					</div>
 					<div class="fname">
-						<input type="text" class="name">
-						<input type="text" class="name">
+						<input type="number" class="name" placeholder="Número" required>
+						<input type="text" class="name" placeholder="Cidade/Estado">
 					</div>
-					<input type="text" class="foma">
-				</div>
+					<div class="fname">
+						<input type="text" class="foma" placeholder="Mensagem">
+					</div>
+					<div >
+						<input type="submit" value="Enviar" id="benviar">
+					</div>
+					
+				</form>
 				<div id="contato">
 					<h2>contato</h2>
 					<p>
