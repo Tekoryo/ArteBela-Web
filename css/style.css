@@ -8,29 +8,25 @@ body{
     font-size: 16pt;
     margin: 0px;
     width: 100%;
-    max-width: 1500px;
+    max-width: 2000px;
     scroll-behavior: smooth;
 }
 html{
     scroll-behavior: smooth;
 }
-/* cabecalho */
-/* header#cabecalho-oculto{
-    opacity: 0;
-    background:#f0f8ff;
-    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.308);
-    height: 100px;
+div#interface{
+    margin: 0px;
     width: 100%;
-    max-width: 1600px;
-} */
+    max-width: 2000px;
+
+}
+/* cabecalho */
 header#cabecalho-menu{
     background:#f0f8ff;
     box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.308);
-    position: sticky;
-    top:0;
-    left: 0;
+    position: static;
     width: 100%;
-    max-width: 1600px;
+    max-width: 1900px;
 }
 /* Menu */
 div.cabecalho{
@@ -106,12 +102,6 @@ div.sobre_conteudo{
 }
 
     /*Texto  */
-article#sobre h1 + p {
-    font-weight: bold;
-    background-color: #333;
-    color: #fff;
-    padding: .5em;
-} 
 div#texto h1{
     display:block;
     font-size: 26pt;
