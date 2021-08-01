@@ -10,6 +10,9 @@ body{
     width: 100%;
     max-width: 1500px;
 }
+html{
+    scroll-behavior: smooth;
+}
 header#cabecalho-oculto{
 /* cabecalho */
     opacity: 0;
