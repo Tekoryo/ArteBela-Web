@@ -89,17 +89,17 @@ article{
 /* Conteudo - Inicio */
 #galeria-inicio{
     margin: 10px;
-    width:500px;
-    height: 350px;
-
+    width:1000px;
+    height: 550px;
+    background-color: #bbbbbb
 }
     /* Galeria */
 .gallery {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    width: 50%;
-    height: 40%;
+    width: 90%;
+    height: 80%;
     max-height: 28vw;
     overflow: hidden;
 } 
@@ -215,12 +215,12 @@ article{
 
 .gallery:before {
   left: 0;
-  background:  linear-gradient(to right, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 100%);
+  background:  linear-gradient(to right, #f5f5f5 0%, rgba(187, 182, 182, 0) 100%);
 }
 
 .gallery:after {
   right: 0;
-  background:  linear-gradient(to left, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 100%);
+  background:  linear-gradient(to left, #f5f5f5 0%, rgba(187, 182, 182, 0) 100%);
 }
 /* Conteudo - Quem somos */
 article#sobre{
