@@ -156,31 +156,31 @@ article{
   /* Backgrounds */
 
 .bg-1 {
-    background-image: url(../imagens/fotos/Galeria/im1-small.jpg);
+    background-image: url(../_imagens/fotos/Galeria/im1-small.jpg);
   }
   
   .bg-2 {
-    background-image: url(../imagens/fotos/Galeria/im2-small.jpg);
+    background-image: url(../_imagens/fotos/Galeria/im2-small.jpg);
   }
   
   .bg-3 {
-    background-image: url(../imagens/fotos/Galeria/im3-small.jpg);
+    background-image: url(../_imagens/fotos/Galeria/im3-small.jpg);
   }
   
   .bg-4 {
-    background-image: url(../imagens/fotos/Galeria/im4-small.jpg);
+    background-image: url(../_imagens/fotos/Galeria/im4-small.jpg);
   }
   
   .bg-5 {
-    background-image: url(../imagens/fotos/Galeria/im5-small.jpg);
+    background-image: url(../_imagens/fotos/Galeria/im5-small.jpg);
   }
   
   .bg-6 {
-    background-image: url(../imagens/fotos/Galeria/im6-small.jpg);
+    background-image: url(../_imagens/fotos/Galeria/im6-small.jpg);
   }
   
   .bg-7 {
-    background-image: url(../imagens/fotos/Galeria/im2-small.jpg);
+    background-image: url(../_imagens/fotos/Galeria/im2-small.jpg);
   }
   /* Controles */
 
@@ -250,7 +250,40 @@ div#texto_sobre h1:hover{
 
 }
 /* Conteudo - galeria */
-
+#galeria-fotos{
+    display: flex;
+    align-items: center;
+    background-color: #000000;
+    justify-content: center;
+    width:1000px;
+    height: 590px;
+}   
+.ft-2  {
+    background-image: url(../_imagens/fotos/Galeria/im1-small.jpg);
+}
+      
+.ft-2 {
+    background-image: url(../_imagens/fotos/Galeria/im2-small.jpg);
+}
+      
+.ft-3 {
+    background-image: url(../_imagens/fotos/Galeria/im3-small.jpg);
+}
+.ft-4 {
+    background-image: url(../_imagens/fotos/Galeria/im4-small.jpg);
+}
+      
+.ft-5 {
+    background-image: url(../_imagens/fotos/Galeria/im5-small.jpg);
+}
+      
+.ft-6 {
+    background-image: url(../_imagens/fotos/Galeria/im6-small.jpg);
+}
+      
+.ft-7 {
+    background-image: url(../_imagens/fotos/Galeria/im2-small.jpg);
+}
 /* Conteudo - contato */
 article.contato{
     display: flex;
