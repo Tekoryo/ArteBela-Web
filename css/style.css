@@ -18,9 +18,9 @@ div#interface{
     margin: 0px;
     width: 100%;
     max-width: 2000px;
-
 }
 /* cabecalho */
+
 header#cabecalho-menu{
     background:#f0f8ff;
     box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.308);
@@ -59,7 +59,6 @@ div.cabecalho a{
     color:#000000;
 }
 div.cabecalho a:hover{
-    text-decoration:none;
     color:#ffffff;
 }
 
@@ -102,15 +101,16 @@ div.sobre_conteudo{
 }
 
     /*Texto  */
-div#texto h1{
+div#texto_sobre h1{
     display:block;
     font-size: 26pt;
-    width: 75%;
-    background-color: none;
+    width: 75%;    
 }
-div#texto h1:hover{
+div#texto_sobre h1:hover{
     color:#000000;
     text-decoration:underline;
+    
+
 }
 /* Conteudo - galeria */
 article#galeria{
@@ -143,7 +143,7 @@ article.contato h2{
     color: #000000;
     font-family: 'Courier New', Courier, monospace;
     
-}
+} 
 article.contato form#formulario{
     display: block;
     padding-right: 25%;
