@@ -87,10 +87,7 @@ article{
     justify-content: space-between;
 }
 /* Conteudo - Inicio */
-article#inicio img#fotos1{
-    display: block;
-    margin: 0px auto;
-}
+
 /* Conteudo - Quem somos */
 article#sobre{
     width: 90%;
