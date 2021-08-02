@@ -88,10 +88,12 @@ article{
 }
 /* Conteudo - Inicio */
 #galeria-inicio{
-    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width:1000px;
-    height: 550px;
-    background-color: #bbbbbb
+    height: 590px;
+    margin-top: 10px;
 }
     /* Galeria */
 .gallery {
