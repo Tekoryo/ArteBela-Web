@@ -14,3 +14,11 @@ document.addEventListener('DOMContentLoaded', function() {
       items = document.querySelectorAll('.gallery__item');
     });
   });
+/*function sendMail() {
+  var link = "mailto:thiagocoelho.coelho2@example.com"
+        + "?cc=myCCaddress@example.com"
+        + "&subject=" + escape("This is my subject")
+        + "&body=" + escape(document.getElementById('myText').value);
+
+  window.location.href = link;
+}*/

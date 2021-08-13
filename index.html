@@ -64,20 +64,21 @@
 			<article class="contato">
 				<form id="formulario">
 					<h2>Formulario</h2>
-					<div class="fname">
+					<div class="fname" id="myText">
 						
 						<input type="text" class="name" placeholder="Nome" required>
 						<input type="text" class="name" placeholder="Email" required >
 					</div>
-					<div class="fname">
+					<div class="fname" id="myText">
 						<input type="number" class="name" placeholder="Número" required>
 						<input type="text" class="name" placeholder="Cidade/Estado">
 					</div>
-					<div class="fname">
+					<div class="fname" id="myText">
 						<input type="text" class="foma" placeholder="Mensagem">
 					</div>
 					<div >
-						<input type="submit" value="Enviar" id="benviar">
+						
+						<button id="benviar"onclick="sendMail(); return false">Enviar</button>
 					</div>
 					
 				</form>
