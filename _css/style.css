@@ -293,6 +293,12 @@ button#benviar{
    margin-top: 10px;
    align-items: center;
 }
+button#benviar a{
+    color: #000000;
+    text-decoration: none;
+    padding: 15.5px 200px 15.5px 250px;
+    /* Arrumar a posição do enviar */
+}
 article.contato div#contato{
     border-left: 8px solid rgb(104, 13, 13) ;
     margin-left: -500px ;
