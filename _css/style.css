@@ -1,5 +1,6 @@
 @charset "UTF-8";
 @import url(font.css);
+@import url(animacao.css);
 /* color: 
     Red: #D91E1E
     Red_Dark: #b11616
@@ -56,25 +57,27 @@ div.cabecalho ul{
 }
 div.cabecalho li{
     display: inline;
-    margin: 10px;
-    padding: 10px;
+    margin:auto;
+    padding: 10px .0001px 10px .0001px;
 }
 div.cabecalho li:hover{
     background: #b11616;
-    border-radius: 3px;
-    padding: 10px;
-    margin: 10px;
+    border-radius: 7px;
+    padding: 10px 1px 10px 1px;
+    margin: auto;
+    transition: 0.5s;
 }
 div.cabecalho a{
+    margin: 0.01px;
     text-decoration:none;
-    margin: 10px;
     padding: 10px;
     color:#211915;
 }
 div.cabecalho a:hover{
     color:#F2F2F2;
-    margin: 10px;
+    margin: 0.01px;
     padding: 10px;
+    transition: 0.3s;
 }
 
 /* Menu celular */
@@ -117,12 +120,7 @@ div#texto_sobre h1{
     display:block;
     font-size: 26pt;
     width: 75%;    
-}
-div#texto_sobre h1:hover{
     color:#211915;
-    text-decoration:underline #b11616;
-    
-
 }
 /* Conteudo - galeria */
 
@@ -162,7 +160,7 @@ div.fname input.foma{
     height:200px;
 }
 button#benviar{
-   width: 5z00px; 
+   width: 500px; 
    height: 50px;
    margin: auto;
    margin-top: 10px;
