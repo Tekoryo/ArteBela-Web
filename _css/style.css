@@ -127,9 +127,6 @@ div#texto_sobre h1:hover{
 /* Conteudo - galeria */
 
 /* Conteudo - contato */
-fieldset{
-    border: 0;
-}
 article.contato{
     display: flex;
     align-items: center;
@@ -165,7 +162,7 @@ div.fname input.foma{
     height:200px;
 }
 button#benviar{
-   width: 30px; 
+   width: 5z00px; 
    height: 50px;
    margin: auto;
    margin-top: 10px;
