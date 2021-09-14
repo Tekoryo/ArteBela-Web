@@ -125,6 +125,7 @@ div#texto_sobre h1{
 /* Conteudo - galeria */
 
 /* Conteudo - contato */
+/* global */
 article.contato{
     display: flex;
     align-items: center;
@@ -140,6 +141,7 @@ article.contato h2{
     font-family: 'Courier New', Courier, monospace;
     
 } 
+/* Formulario */
 article.contato form#formulario{
     display: block;
     padding-right: 25%;
@@ -172,11 +174,18 @@ button#benviar a{
     padding: 15.5px 200px 15.5px 250px;
     /* Arrumar a posição do enviar */
 }
-article.contato div#contato{
+/* Contato */
+div#contato{
     border-left: 8px solid #b11616 ;
+    background-color: aquamarine;
+    height: 360px;
+    margin: 0px;
     margin-left: -500px ;
     padding-left: 20px;
     color:#211915;
+}
+div#contato h3, p{
+    margin: 10px 0px;
 }
 /* Conteudo - rodape */
 footer#rodape{
