@@ -115,20 +115,25 @@ article#sobre{
     justify-content: space-between;
     margin: auto;
     margin-top: 50px;
-    background-color: gray;
+    /* background-color: gray; */
 }  
 div.sobre_conteudo{
     margin: 10px auto;
+}
+div#texto_sobre{
+    display: flex;
 }
     /* Texto  */
 article#sobre h1{
     display:block;
     font-size: 26pt;
+    font-family: 'Open Sans', sans-serif;
     width: 75%;    
     color:#211915;
 }
-p.TextoS{
-    background-color: aquamarine;
+.TextoS{
+    font-family: Open Sans, 'sans-serif';
+    font-size: 15pt;
 }
 p#TextoS1{
     width: 500px;
@@ -136,17 +141,15 @@ p#TextoS1{
 p#TextoS2{
     width: auto;
 }
-footer{
-    background-color: aquamarine;
-}
-    /* Imagem */
+/* Imagem */
 aside{
-    background-color: aquamarine;
-}
-#foto-equipe{
-    width:auto;
     height: 200px;
-    float: right;
+    /* background-color: aquamarine;*/
+}
+#foto-equipe img{
+    display: block;
+    width:auto;
+    height: 240px;
 }
 /* Conteudo - galeria */
 #galeria-fotos{
@@ -164,7 +167,7 @@ article.contato{
     width: 90%;
     max-width: 1000px;
     margin: auto 50px;
-    background-color: gray;
+    /* background-color: gray; */
 }
 article.contato h2{
     color: #211915;
