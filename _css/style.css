@@ -132,22 +132,40 @@ article.contato{
     justify-content: space-between;
     width: 90%;
     max-width: 1000px;
-    margin: auto;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin: auto 50px;
+    
 }
 article.contato h2{
     color: #211915;
     font-family: 'Courier New', Courier, monospace;
-    
 } 
+fieldset{
+    border: 0px;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+    margin-left: 0px;
+    width: 5px;
+}
+.info{
+    margin-left: 5px;
+}
+/* Link no contato */
+.ani-contato{
+    color: #211915;
+    text-decoration: none;
+}
+.ani-contato:hover{
+    color:red;
+    transition: 1s;
+}
 /* Formulario */
-article.contato form#formulario{
+form#formulario{
     display: block;
-    padding-right: 25%;
+    height: 360px;
+    padding: 0px;
     align-items:  flex-end;
     margin-right: 0px;
-    
 }
 div.fname{
     display: inline-block;
@@ -177,11 +195,11 @@ button#benviar a{
 /* Contato */
 div#contato{
     border-left: 8px solid #b11616 ;
-    background-color: aquamarine;
+    
     height: 360px;
     margin: 0px;
-    margin-left: -500px ;
-    padding-left: 20px;
+    margin-left: 5px ;
+    padding-left: 40px;
     color:#211915;
 }
 div#contato h3, p{
@@ -206,4 +224,3 @@ footer.rodape{
     margin: auto;
 }
 
-/* Outros */
