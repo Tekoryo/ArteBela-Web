@@ -81,9 +81,9 @@ div.cabecalho a:hover{
 }
 
 /* Menu celular */
-/* conteúdo */
+    /* conteúdo */
 section{
-    background-color: rgb(179, 179, 179);
+    background-color: #b3b3b3;
 }
 article{
     margin-top: 50px;    
@@ -105,6 +105,18 @@ article{
 /* Conteudo - Inicio */
 #galeria-inicio{
     background-color: gray;
+    width: 100%;
+    max-width: 1000px;
+    display: block;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+    margin-top: 50px;
+}   
+img{
+    display: block
+    justify-content: space-between;
+    margin: auto;
 }
 /* Conteudo - Quem somos */
 article#sobre{
@@ -115,7 +127,6 @@ article#sobre{
     justify-content: space-between;
     margin: auto;
     margin-top: 50px;
-    /* background-color: gray; */
 }  
 div.sobre_conteudo{
     margin: 10px auto;
@@ -141,10 +152,9 @@ p#TextoS1{
 p#TextoS2{
     width: auto;
 }
-/* Imagem */
+    /* Imagem */
 aside{
     height: 200px;
-    /* background-color: aquamarine;*/
 }
 #foto-equipe img{
     display: block;
@@ -159,15 +169,14 @@ aside{
     margin-bottom: 50px;
 }
 /* Conteudo - contato */
-/* global */
+    /* global */
 article.contato{
     display: flex;
     align-items: center;
     justify-content: space-between;
     width: 90%;
     max-width: 1000px;
-    margin: auto 50px;
-    /* background-color: gray; */
+    margin: auto 50px;  
 }
 article.contato h2{
     color: #211915;
@@ -184,16 +193,16 @@ fieldset{
 .info{
     margin-left: 5px;
 }
-/* Link no contato */
+    /* Link no contato */
 .ani-contato{
     color: #211915;
     text-decoration: none;
 }
 .ani-contato:hover{
-    color:red;
+    color:#D91E1E;
     transition: 1s;
 }
-/* Formulario */
+    /* Formulario */
 form#formulario{
     display: block;
     height: 360px;
@@ -226,7 +235,7 @@ button#benviar a{
     padding: 15.5px 200px 15.5px 250px;
     /* Arrumar a posição do enviar */
 }
-/* Contato */
+    /* Contato */
 div#contato{
     border-left: 8px solid #b11616 ;
     
