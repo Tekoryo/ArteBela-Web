@@ -113,6 +113,9 @@ article{
     margin: auto;
     margin-top: 50px;
 }   
+#slider{
+    background-color: #211915;
+}
 img{
     display: block;
     justify-content: space-between;
