@@ -33,9 +33,8 @@
 				<img src="_imagens/fotos/im6.jpg" alt="">
 			</div>
 		</article>
-		<section class="corpo-conte">
 			<!-- Sobre -->
-			<article id="sobre">
+			<article id="sobre" class="corpo-conte">
 				<h1><a class="ani-underline" href="#sobre">Quem somos</a></h1>
 				<div class="sobre_conteudo" id="texto_sobre">
 					<p id="TextoS1" class="TextoS">
@@ -54,7 +53,13 @@
 				</footer>
 			</article>
 			<!-- galeria de imagem -->
-			<article id="galeria-fotos">
+			<div class="modal">
+				<div class="modal_content">
+					<img src="_imagens/fotos/im2.jpg" id="modal_img">
+				</div>
+				<span id="bt_close">&times;</span>
+			</div>
+			<article id="galeria-fotos" class="corpo-conte">
 				<div class="container">
 					<div class="row">
 						<div class="card_img">
@@ -79,45 +84,46 @@
 				</div>
 			</article>
 			<!-- formulario e contato -->
-			<article class="contato">
-				<form id="formulario">
-					<h2><a class="ani-underline" href="#formulario">Formulario</a></h2>
-					<fieldset>
-						<div class="fname" id="myText">
-						
-							<input type="text" class="name" placeholder="Nome" required>
-							<input type="text" class="name" placeholder="Email" required >
-						</div>
-						<div class="fname" id="myText">
-							<input type="number" class="name" placeholder="Número" required>
-							<input type="text" class="name" placeholder="Cidade/Estado">
-						</div>
-						<div class="fname" id="myText">
-							<input type="text" class="foma" placeholder="Mensagem">
-						</div>
-						<div >
+			<section class="corpo-conte">
+				<article class="contato">
+					<form id="formulario">
+						<h2><a class="ani-underline" href="#formulario">Formulario</a></h2>
+						<fieldset>
+							<div class="fname" id="myText">
 							
-						<button id="benviar"><a href="mailto:thiagocoelho.coelho2@gmail.com?subject=Teste">Enviar</a></button>
-						</div>
-					</fieldset>
-					
-				</form>
-				<div id="contato">
-					<h2><a class="ani-underline" href="#contato">Contato</a></h2>
-					
-					<fieldset>
-						<h3>Telefone:</h3> 
-						<p class="info"><a class="ani-contato" href="tel:+55">(XX) XXXX-XXXX</a></p>
-
-						<h3>E-mail:</h3>
-						<p class="info"><a class="ani-contato" href="mailto:Loremipsum@Loremipsum.com.br">Loremipsum@Loremipsum.com.br</a></p>
-						<h3>Endereço</h3>
-						<p class="info"><address class="ani-contato" >Lorem ipsum dolor sit amet consectetur adipisicing elit.</address></p>
-					</fieldset>
+								<input type="text" class="name" placeholder="Nome" required>
+								<input type="text" class="name" placeholder="Email" required >
+							</div>
+							<div class="fname" id="myText">
+								<input type="number" class="name" placeholder="Número" required>
+								<input type="text" class="name" placeholder="Cidade/Estado">
+							</div>
+							<div class="fname" id="myText">
+								<input type="text" class="foma" placeholder="Mensagem">
+							</div>
+							<div >
+								
+							<button id="benviar"><a href="mailto:thiagocoelho.coelho2@gmail.com?subject=Teste">Enviar</a></button>
+							</div>
+						</fieldset>
+						
+					</form>
+					<div id="contato">
+						<h2><a class="ani-underline" href="#contato">Contato</a></h2>
+						
+						<fieldset>
+							<h3>Telefone:</h3> 
+							<p class="info"><a class="ani-contato" href="tel:+55">(XX) XXXX-XXXX</a></p>
+	
+							<h3>E-mail:</h3>
+							<p class="info"><a class="ani-contato" href="mailto:Loremipsum@Loremipsum.com.br">Loremipsum@Loremipsum.com.br</a></p>
+							<h3>Endereço</h3>
+							<p class="info"><address class="ani-contato" >Lorem ipsum dolor sit amet consectetur adipisicing elit.</address></p>
+						</fieldset>
+					</div>
+				</article>
 				</div>
-			</article>
-			</div>
-		</section>
+			</section>
 		<!-- Rodape -->
 		<footer id="rodape">
 			<div class="rodape">
