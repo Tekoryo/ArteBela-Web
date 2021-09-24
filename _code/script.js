@@ -1,4 +1,12 @@
-//Banner
+/*Scroll */
+const menuitem = document.querySelectorAll('.cabecalho a[href^="#"]')
+menuitem.forEach(item=>{
+    item.addEventListener('click',scrollToIdOnClick)
+})
+function scrollToIdOnClick(event){
+    console.log("Clicou")
+}
+/*Banner*/
 let time = 3000,
     currentImageIndex = 0,
     images = document.querySelectorAll("#slider img"),

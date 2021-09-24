@@ -35,9 +35,10 @@ div#interface{
 /* cabecalho */
 
 header#cabecalho-menu{
+    margin-top: -50px;
     background:#F2F2F2;
     box-shadow: 1px 1px 4px #2119154f;
-    position: static;
+    position: fixed;
     width: 100%;
     max-width: 1900px;
 }
@@ -83,7 +84,7 @@ div.cabecalho a:hover{
 /* Menu celular */
     /* conteúdo */
 section{
-    /* background-color: #b3b3b3; */
+  background-color: #b3b3b3;
 }
 article{
     margin-top: 50px;    
