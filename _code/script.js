@@ -4,7 +4,11 @@ menuitem.forEach(item=>{
     item.addEventListener('click',scrollToIdOnClick)
 })
 function scrollToIdOnClick(event){
-    console.log("Clicou")
+    const element = event.target;
+    const id = element.getAttribute('href')
+    const section = document.querySelector(id)
+    console.log(id)
+
 }
 /*Banner*/
 let time = 3000,

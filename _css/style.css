@@ -24,9 +24,6 @@ body{
     max-width: 2000px;
     scroll-behavior: smooth;
 }
-html{
-    scroll-behavior: smooth;
-}
 div#interface{
     margin: 0px;
     width: 100%;
@@ -35,10 +32,10 @@ div#interface{
 /* cabecalho */
 
 header#cabecalho-menu{
+    position:fixed;
     margin-top: -50px;
     background:#F2F2F2;
     box-shadow: 1px 1px 4px #2119154f;
-    position: fixed;
     width: 100%;
     max-width: 1900px;
 }
@@ -83,9 +80,6 @@ div.cabecalho a:hover{
 
 /* Menu celular */
     /* conteúdo */
-section{
-  background-color: #b3b3b3;
-}
 article{
     margin-top: 50px;    
 }
