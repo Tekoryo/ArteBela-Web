@@ -32,8 +32,8 @@ div#interface{
 /* cabecalho */
 
 header#cabecalho-menu{
-    position:fixed;
-    margin-top: -50px;
+    position:static;
+    margin-top: 0px;
     background:#F2F2F2;
     box-shadow: 1px 1px 4px #2119154f;
     width: 100%;
