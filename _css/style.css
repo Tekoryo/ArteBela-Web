@@ -32,8 +32,8 @@ div#interface{
 /* cabecalho */
 
 header#cabecalho-menu{
-    position:static;
-    margin-top: 0px;
+    position:fixed;
+    margin-top: -50px;
     background:#F2F2F2;
     box-shadow: 1px 1px 4px #2119154f;
     width: 100%;
@@ -97,6 +97,7 @@ article{
     display: flex;
     justify-content: space-between;
 }
+
 /* Conteudo - banner */
 #banner{
     /* background-color: gray; */
