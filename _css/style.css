@@ -171,7 +171,30 @@ aside{
     height: 240px;
 }
 /* Conteudo - galeria */
-
+#galeria-fotos{
+    box-sizing: border-box;
+    background-color: #282c34;
+    min-height: 100vh;
+    width: 100%;
+}
+div.galeria{
+    width: 100%;
+    padding: 2%;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-auto-rows: 30vh;
+}
+div.galeria div.single-galeria{
+    background-color: red;
+    border-radius: 5px;
+    margin: 0.5vw;
+}
+.h-2{
+    grid-row: span 2 ;
+}
+.w-2{
+    grid-column: span 2;
+}
 /* Conteudo - contato */
     /* global */
 article.contato{
