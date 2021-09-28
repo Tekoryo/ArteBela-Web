@@ -39,3 +39,15 @@ function start(){
 }
 window.addEventListener("load",start)
 /* Galeria*/
+const gM=document.querySelector(".galeria-modal")
+const ImgM=document.querySelector(".galeria-modal img")
+const btclose=document.querySelector(".galeria-modal")
+btclose.addEventListener('click',function (){
+    gM.style.visibility="hidden"; 
+})
+
+function abrirGaleria(){
+    gM.style.visibility="visible"
+    ImgM.style.transform ="scale(1)"
+    ImgM.scr=scr
+}

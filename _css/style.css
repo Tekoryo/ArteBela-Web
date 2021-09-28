@@ -32,12 +32,13 @@ div#interface{
 /* cabecalho */
 
 header#cabecalho-menu{
-    position:static;
-    margin-top: 0px;
+    position:fixed;
+    margin-top: -150px;
     background:#F2F2F2;
     box-shadow: 1px 1px 4px #2119154f;
     width: 100%;
     max-width: 1900px;
+    z-index: 4;
 }
 /* Menu */
 div.cabecalho{
@@ -107,7 +108,7 @@ article{
     align-items: center;
     justify-content:center;
     margin: auto;
-    margin-top: 50px;
+    margin-top: 150px;
 }   
 #slider{
     width: 100%; 
@@ -221,6 +222,8 @@ div.galeria-modal{
     position: fixed;
     top: 0;
     left: 0;
+    visibility:visible;
+    z-index: 5;
 }
 div.galeria-modal span{
     position: fixed;
