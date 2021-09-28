@@ -206,11 +206,34 @@ div.galeria div.single-galeria img{
 div.galeria div.single-galeria img:hover{
    transform: scale(1.1);
 } 
+    /* Responsividade da galeria */
 @media screen and (max-width:764px) { 
     div.galeria{
         grid-template-columns: repeat(2,1fr);
         grid-auto-rows: 15vh;
     }
+}
+    /* galeria-modal */
+div.galeria-modal{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.241);
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+div.galeria-modal span{
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    font-size: 22px;
+    color: rgb(243,71,71);
+}
+div.galeria-modal img{
+    width: 100%;
+    height: 100%;
+    padding: 4%;
+    object-fit: contain;
 }
 /* Conteudo - contato */
     /* global */
