@@ -23,11 +23,22 @@ body{
     width: 100%;
     max-width: 2000px;
     scroll-behavior: smooth;
+    scrollbar-color: red;
 }
 div#interface{
     margin: 0px;
     width: 100%;
     max-width: 2000px;
+}
+    /* scroll bar */
+::-webkit-scrollbar{
+    width: 10px;
+    background-color: rgb(200,200,200);
+}
+::-webkit-scrollbar-thumb{
+    background-color: #b11616;
+    border: 2px solid rgb(200,200,200);
+    border-radius: 50px;
 }
 /* cabecalho */
 
