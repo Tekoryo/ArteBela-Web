@@ -46,8 +46,8 @@ btclose.addEventListener('click',function (){
     gM.style.visibility="hidden"; 
 })
 
-function abrirGaleria(){
+function abrirGaleria(src){
     gM.style.visibility="visible"
     ImgM.style.transform ="scale(1)"
-    ImgM.scr=scr
+    ImgM.src=src
 }
