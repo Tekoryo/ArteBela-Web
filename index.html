@@ -83,24 +83,12 @@
 				<article class="contato">
 					<form id="formulario">
 						<h2><a class="ani-underline" href="#formulario">Formulario</a></h2>
-						<fieldset>
-							<div class="fname" id="myText">
-							
-								<input type="text" class="name" placeholder="Nome" required>
-								<input type="text" class="name" placeholder="Email" required >
-							</div>
-							<div class="fname" id="myText">
-								<input type="number" class="name" placeholder="Número" required>
-								<input type="text" class="name" placeholder="Cidade/Estado">
-							</div>
-							<div class="fname" id="myText">
-								<input type="text" class="foma" placeholder="Mensagem">
-							</div>
-							<div >
-								
-							<button id="benviar"><a href="mailto:thiagocoelho.coelho2@gmail.com?subject=Teste">Enviar</a></button>
-							</div>
-						</fieldset>
+						<form class="form" method="POST" action="_code/email.php">
+							<input type="text" class="field" name="name" placeholder="Nome">
+							<input type="text" class="field" name="email" placeholder="E-mail">
+							<textarea class="field" name="mensagem" placeholder="Digite sua mensagem aqui!"></textarea>
+							<input type="submit" value="Enviar" class="field" id="btEnviar">
+						</form>
 						
 					</form>
 					<div id="contato">
@@ -131,6 +119,7 @@
 			</div>
 		</footer>
 	</div>
+	<script src="_code/email.php"></script>
 	<script src="/_code/script.js"></script>
 </body>
 </html>

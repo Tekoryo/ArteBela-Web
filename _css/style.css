@@ -291,38 +291,32 @@ fieldset{
     transition: 1s;
 }
     /* Formulario */
-form#formulario{
-    display: block;
-    height: 360px;
-    padding: 0px;
-    align-items:  flex-end;
-    margin-right: 0px;
+form#form{
+        display: block;
+        height: 360px;
+        padding: 0px;
+        align-items:  flex-end;
+        margin-right: 0px;
 }
-div.fname{
-    display: inline-block;
+.field{
+       width: 550px; 
+       height: 50px;
+       text-align: center;
+       margin: auto;
+       margin-top: 10px;
+       align-items: center;
 }
-div.fname input.name{
-    width:243px;
-}
-div.fname input.foma{
-    text-align: start;
-    margin-top: 10px;
-    width: 500px;
-    height:200px;
-}
-button#benviar{
-   width: 500px; 
-   height: 50px;
-   margin: auto;
-   margin-top: 10px;
-   align-items: center;
-}
-button#benviar a{
-    color: #211915;
-    text-decoration: none;
-    padding: 15.5px 200px 15.5px 250px;
-    /* Arrumar a posição do enviar */
-}
+    textarea.field{
+        width: 550px;
+        height: 100px;
+    }
+    
+    input#btEnviar{
+        color: #211915;
+        width: 555px;
+        height: 50px;
+        text-align: center;
+    }
     /* Contato */
 div#contato{
     border-left: 8px solid #b11616 ;
