@@ -18,7 +18,6 @@ if(mail($to,$subject,$body,$header)){
 }else{
     echo("Falha ao enviar!");
 }
-
 }
 
 ?> 

@@ -288,9 +288,16 @@ fieldset{
 }
 .ani-contato:hover{
     color:#D91E1E;
-    transition: 1s;
+    transition: 0.4s;
 }
     /* Formulario */
+form{
+    height: 360px;
+    margin: 0px;
+    margin-right: 10px ;
+    padding-left: 40px;
+    color:#211915;
+}
 form#form{
         display: block;
         height: 360px;
@@ -320,7 +327,6 @@ form#form{
     /* Contato */
 div#contato{
     border-left: 8px solid #b11616 ;
-    
     height: 360px;
     margin: 0px;
     margin-left: 5px ;
