@@ -1,0 +1,1 @@
+Problema: O site funciona no localhost, mas não no servidor.
