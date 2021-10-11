@@ -101,6 +101,9 @@ div.cabecalho a:hover{
 }
 
 /* Menu celular */
+@media screen {
+    
+}
     /* conteúdo */
 article{
     margin-top: 50px;    
