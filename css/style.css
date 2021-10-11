@@ -45,9 +45,11 @@ div#interface{
     border: 3px solid rgb(200,200,200);
     border-radius: 50px;
 }
-    /*Objetivo:
-        quando a pessoa clicar na scrollBar ela vai ficar vermelha.
-    */
+::-webkit-scrollbar-thumb:active{
+    background-color: #b11616;
+    border: 3px solid rgb(200,200,200);
+    border-radius: 50px;
+}
 /* cabecalho */
 
 header#cabecalho-menu{
