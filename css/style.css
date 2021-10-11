@@ -101,7 +101,7 @@ div.cabecalho a:hover{
 }
 
 /* Menu celular */
-@media screen {
+@media screen and (max-width:764px){
     
 }
     /* conteúdo */
