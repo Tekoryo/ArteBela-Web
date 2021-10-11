@@ -347,17 +347,17 @@ footer#rodape{
     max-height:50px;
 }
 .rodape{
-    display: flex;
     align-items: center;
     justify-content: space-between;
     width: 100%;
     max-width: 1300px;
     margin: auto;
 }
+    /* Conteúdo  */
 .rodape {
-    background-color: aqua;
-    margin: auto;
+    color: #F2F2F2;
     text-align: center;
+    margin: auto;
 }
 
 
