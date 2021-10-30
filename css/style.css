@@ -364,5 +364,9 @@ footer#rodape{
     text-align: center;
     margin: auto;
 }
+.rodape a {
+   color:#F2F2F2;
+   text-decoration: none;
+}
 
 

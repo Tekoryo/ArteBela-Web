@@ -51,3 +51,7 @@ function abrirGaleria(src){
     ImgM.style.transform ="scale(1)"
     ImgM.src=src
 }
+/* DATA */
+let data =document.getElementById("data");
+let now = new Date()
+data.innerHTML = now.getFullYear()
