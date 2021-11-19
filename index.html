@@ -9,10 +9,6 @@
 	<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-	<div class="galeria-modal">
-		<div id="btclose"><span>X</span></div>
-		<img src="" alt="" id="modal-img">
-	</div>
 	<div id="interface">
 		<!-- cabecalho com menu -->
 		<header id="cabecalho-menu">
@@ -27,59 +23,65 @@
 			</div>
 		</header>
 		<!-- Conteúdo -->
-			<!-- Banner -->
-		<article id="banner">
-			<div id="slider">
-				<img class="selected" src="imagens/logo/bannerabbig.jpg" alt="">	
-				<img src="imagens/fotos/im2.jpg" alt="">
-				<img src="imagens/fotos/im8.jpg" alt="">
-				<img src="imagens/fotos/im6.jpg" alt="">
+		<section class="corpo-conte">
+			
+			<!-- Galeria modal -->
+			<div class="galeria-modal">
+				<div id="btclose"><span>X</span></div>
+				<img src="" alt="" id="modal-img">
 			</div>
-		</article>
-			<!-- Sobre -->
-			<article id="sobre" class="corpo-conte">
-				<h1><a class="ani-underline" href="#sobre">Quem somos</a></h1>
-				<div class="sobre_conteudo" id="texto_sobre">
-					<p id="TextoS1" class="TextoS">
-						Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis iste repellendus necessitatibus ducimus inventore soluta pariatur impedit, eaque quo minus illum sint praesentium delectus dolore odit, tempora ad amet iure. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, sequi, quidem provident repellat asperiores quae est fugiat, ex voluptate vero harum commodi laudantium. A odit aut repudiandae velit ea officiis.
-					</p>
-					<aside>
-						<div class="sobre_conteudo" id="foto-equipe">
-							<img src="imagens/fotos/im-equipe-big.jpg" alt="equipe-artebela">
+				<!-- Banner -->
+			<article id="banner">
+				<div id="slider">
+					<img class="selected" src="imagens/logo/bannerabbig.jpg" alt="">	
+					<img src="imagens/fotos/im2.jpg" alt="">
+					<img src="imagens/fotos/im8.jpg" alt="">
+					<img src="imagens/fotos/im6.jpg" alt="">
+				</div>
+			</article>
+				<!-- Sobre -->
+				<article id="sobre" class="corpo-conte">
+					<h1><a class="ani-underline" href="#sobre">Quem somos</a></h1>
+					<div class="sobre_conteudo" id="texto_sobre">
+						<p id="TextoS1" class="TextoS">
+							Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis iste repellendus necessitatibus ducimus inventore soluta pariatur impedit, eaque quo minus illum sint praesentium delectus dolore odit, tempora ad amet iure. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, sequi, quidem provident repellat asperiores quae est fugiat, ex voluptate vero harum commodi laudantium. A odit aut repudiandae velit ea officiis.
+						</p>
+						<aside>
+							<div class="sobre_conteudo" id="foto-equipe">
+								<img src="imagens/fotos/im-equipe-big.jpg" alt="equipe-artebela">
+							</div>
+						</aside>
+					</div>
+					<footer>
+						<p id="TextoS2" class="TextoS">
+							Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, dolor? Vero aut, quisquam excepturi, suscipit debitis aliquid ducimus assumenda dolor, sapiente commodi itaque sit maxime harum odio incidunt perferendis unde! Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam optio consequatur reiciendis temporibus, exercitationem, eius corporis est, corrupti ea repudiandae modi debitis at saepe voluptatibus architecto molestiae rem velit rerum?
+						</p>
+					</footer>
+				</article>
+				<!-- galeria de imagem class="corpo-conte" -->
+				<article id="galeria-fotos" >
+					<div class="galeria">
+						<div class="single-galeria w-2 h-2">
+							<img src="imagens/fotos/im1.jpg" alt="" onclick="abrirGaleria('imagens/fotos/im1.jpg')">
 						</div>
-					</aside>
-				</div>
-				<footer>
-					<p id="TextoS2" class="TextoS">
-						Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, dolor? Vero aut, quisquam excepturi, suscipit debitis aliquid ducimus assumenda dolor, sapiente commodi itaque sit maxime harum odio incidunt perferendis unde! Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam optio consequatur reiciendis temporibus, exercitationem, eius corporis est, corrupti ea repudiandae modi debitis at saepe voluptatibus architecto molestiae rem velit rerum?
-					</p>
-				</footer>
-			</article>
-			<!-- galeria de imagem class="corpo-conte" -->
-			<article id="galeria-fotos" >
-				<div class="galeria">
-					<div class="single-galeria w-2 h-2">
-						<img src="imagens/fotos/im1.jpg" alt="" onclick="abrirGaleria('imagens/fotos/im1.jpg')">
+						<div class="single-galeria w-2">
+							<img src="imagens/fotos/im6.jpg" alt="" onclick="abrirGaleria('imagens/fotos/im6.jpg')">
+						</div> 
+						<div class="single-galeria">
+							<img src="imagens/fotos/im3.jpg" alt="" onclick="abrirGaleria('imagens/fotos/im3.jpg')">
+						</div>
+						<div class="single-galeria h-2">
+							<img src="imagens/fotos/im5.jpg" alt="" onclick="abrirGaleria('imagens/fotos/im5.jpg')">
+						</div>
+						<div class="single-galeria">
+							<img src="imagens/fotos/im7.jpg" alt="" onclick="abrirGaleria('imagens/fotos/im7.jpg')">
+						</div>
+						<div class="single-galeria w-2">
+							<img src="imagens/fotos/im2.jpg" alt="" onclick="abrirGaleria('imagens/fotos/im2.jpg')">
+						</div>
 					</div>
-					<div class="single-galeria w-2">
-						<img src="imagens/fotos/im6.jpg" alt="" onclick="abrirGaleria('imagens/fotos/im6.jpg')">
-					</div> 
-					<div class="single-galeria">
-						<img src="imagens/fotos/im3.jpg" alt="" onclick="abrirGaleria('imagens/fotos/im3.jpg')">
-					</div>
-					<div class="single-galeria h-2">
-						<img src="imagens/fotos/im5.jpg" alt="" onclick="abrirGaleria('imagens/fotos/im5.jpg')">
-					</div>
-					<div class="single-galeria">
-						<img src="imagens/fotos/im7.jpg" alt="" onclick="abrirGaleria('imagens/fotos/im7.jpg')">
-					</div>
-					<div class="single-galeria w-2">
-						<img src="imagens/fotos/im2.jpg" alt="" onclick="abrirGaleria('imagens/fotos/im2.jpg')">
-					</div>
-				</div>
-			</article>
-			<!-- formulario e contato -->
-			<section class="corpo-conte">
+				</article>
+				<!-- formulario e contato -->
 				<article class="contato">
 					<form id="formulario">
 						<h2><a class="ani-underline" href="#formulario">Formulario</a></h2>

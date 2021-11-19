@@ -18,17 +18,18 @@
 body{
     background-color: #F2F2F2;
     font-family: 'Arial', sans-serif;
-    font-size: 16pt;
+    font-size: 1.6rem;
     margin: 0px;
     width: 100%;
-    max-width: 2000px;
     scroll-behavior: smooth;
     scrollbar-color: red;
+}
+html{
+    font-size: 62.5%;
 }
 div#interface{
     margin: 0px;
     width: 100%;
-    max-width: 2000px;
 }
     /* scroll bar */
 ::-webkit-scrollbar{
@@ -58,7 +59,6 @@ header#cabecalho-menu{
     background:#F2F2F2;
     box-shadow: 1px 1px 4px #2119154f;
     width: 100%;
-    max-width: 1900px;
     z-index: 4;
 }
 /* Menu */
@@ -90,6 +90,7 @@ div.cabecalho li:hover{
 div.cabecalho a{
     margin: 0.01px;
     text-decoration:none;
+    font-size: 2.4rem;
     padding: 10px;
     color:#211915;
 }
@@ -99,23 +100,21 @@ div.cabecalho a:hover{
     padding: 10px;
     transition: 0.3s;
 }
-
-/* Menu celular */
-@media screen and (max-width:764px){
-    
-}
     /* conteúdo */
 article{
-    margin-top: 50px;    
+    margin-top: 50px; 
+       
 }
 .corpo-conte{
+    display: block;
     align-items: center;
+    justify-content: space-between;
     width: 100%;
-    max-width: 1000px;
     margin: auto;
     margin-top: 50px;
     margin-bottom: 50px;
 }
+
     /*Geral*/
 .botao{
     align-items: center;
@@ -171,14 +170,15 @@ div#texto_sobre{
     /* Texto  */
 article#sobre h1{
     display:block;
-    font-size: 26pt;
+    font-size: 2.8rem;
     font-family: 'Open Sans', sans-serif;
     width: 75%;    
     color:#211915;
 }
 .TextoS{
     font-family: Open Sans, 'sans-serif';
-    font-size: 15pt;
+    font-size: 1.8rem;
+    line-height: 3.4rem;
 }
 p#TextoS1{
     width: 500px;
@@ -269,11 +269,14 @@ article.contato{
     justify-content: space-between;
     width: 90%;
     max-width: 1000px;
-    margin: auto 50px;  
+    margin: auto;    
+
+    font-size: 1.6rem;
 }
 article.contato h2{
     color: #211915;
     font-family: 'Courier New', Courier, monospace;
+    font-size: 2.4rem;
 } 
 fieldset{
     border: 0px;
@@ -304,31 +307,31 @@ form{
     color:#211915;
 }
 form#form{
-        display: block;
-        height: 360px;
-        padding: 0px;
-        align-items:  flex-end;
-        margin-right: 0px;
+    display: block;
+    height: 360px;
+    padding: 0px;
+    align-items:  flex-end;
+    margin-right: 0px;
 }
 .field{
-       width: 550px; 
-       height: 50px;
-       text-align: center;
-       margin: auto;
-       margin-top: 10px;
-       align-items: center;
+    width: 550px; 
+    height: 50px;
+    text-align: center;
+    margin: auto;
+    margin-top: 10px;
+    align-items: center;
 }
-    textarea.field{
-        width: 550px;
-        height: 100px;
-    }
+textarea.field{
+    width: 550px;
+    height: 100px;
+}
     
-    input#btEnviar{
-        color: #211915;
-        width: 555px;
-        height: 50px;
-        text-align: center;
-    }
+input#btEnviar{
+    color: #211915;
+    width: 555px;
+    height: 50px;
+    text-align: center;
+}
     /* Contato */
 div#contato{
     border-left: 8px solid #b11616 ;
@@ -343,7 +346,7 @@ div#contato h3, p{
 }
 /* Conteudo - rodape */
 footer#rodape{
-    font-size: 12pt;
+    font-size: 1.2rem;
     position: absolute;
     background-color: #353630;
     border-top: 1px 1px 10px #211915;
@@ -368,5 +371,6 @@ footer#rodape{
    color:#F2F2F2;
    text-decoration: none;
 }
+/* Reponsividade */
 
 
