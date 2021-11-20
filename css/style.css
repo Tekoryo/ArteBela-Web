@@ -135,7 +135,6 @@ article{
 }   
 #slider{
     width: 100%; 
-    max-width: 1500px;
     height: 50vw;
     max-height:500px;
     position: relative;
